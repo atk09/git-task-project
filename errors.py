@@ -12,7 +12,7 @@ print("I'm " + str(age) + " years old.") #needed to convert age back to str here
 
     # Variables declaring additional years and printing the total years of age
 years_from_now = 3 #indentation corrected and '3' should be an int here as in next line '+' operator has been used to add up the years
-total_years = age + years_from_now #indentation corrected
+total_years = int(age) + years_from_now #indentation corrected
 
 print("The total number of years:" + str(total_years)) #print() method should be correctly used, total_years variable should be used here instead of answer_years string
 
